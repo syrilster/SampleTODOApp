@@ -12,7 +12,7 @@ function addToDo() {
     return;
   }
   var newTodo = {
-    id: Math.random(),
+    id: _.uniqueId(),
     value: userInput
   };
 
