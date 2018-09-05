@@ -27,7 +27,7 @@ function removeTodo(event) {
   var clickedLi = $(this);
   var itemId = clickedLi.attr('dataset-id');
   for (var i = 0; i < todos.length; i++) {
-    if (todos[i].id = itemId) {
+    if (todos[i].id == itemId) {
       todos.splice(i, 1);
       break;
     }
