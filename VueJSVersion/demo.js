@@ -24,8 +24,8 @@ new Vue({
           break;
         }
       }
-			// No other code to remove the element as vue.js is going to detect the deletion and
-			// remove the dom elements automatically.
+   /* No other code to remove the element as vue.js is going to detect the deletion and
+      remove the dom elements automatically.*/
     }
   }
 
